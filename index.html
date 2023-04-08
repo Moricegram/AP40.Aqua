@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Fuente Moon Dance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <!-- Fuente Roboto Regular 400-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Hoja de Estilos Particulares -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>AQUA</title>
+</head>
+
+<body>
+    <header class="hero" id="inicio">
+        <!-- Navbar Modificado de Bootstap -->
+        <nav class="navbar navbar-expand-md navbar-dark bgtransp">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white shadow" href="#"> <span><img src="/img/LogoAquaWhite43px.png"
+                            alt="Logo"></span>AQUA <span Class="fs-6 moondance">Inmobiliaria</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white shadow" aria-current="page" href="inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white shadow" href="#" id="navbarDropdownMenuLink"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Propiedades
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#seccion1">Destacados</a></li>
+                                <li><a class="dropdown-item" href="#seccion2">En Venta</a></li>
+                                <li><a class="dropdown-item" href="#seccion3">En Alquiler</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white shadow" href="#">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white shadow" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Panel Principal del Header -->
+        <div class="text-white text-center shadow flex-column captionhero">
+            <p class="fs-1 m-0">Bienvenidos a AQUA <span Class="fs-3 moondance">Inmobiliaria</span></p>
+            <p>Accede a propiedades soñadas en zonas de: <br> Córdoba Capital | Salsipuedes |
+                Carlos Paz |<br>
+                Villa Allende | Mendiolaza y mas…</p>
+        </div>
+    </header>
+
+    <main>
+        <!-- Carrusel de Destacados -->
+        <section id="seccion1">
+            <h2 class="text-center roboto mt-5 mb-0">DESTACADOS</h2>
+            <p class="text-center roboto fs-6 text-secondary mb-5">Explora nuestras propiedades destacadas
+            </p>
+            <!-- Carrusel de Bootstrap Modificado -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/Carousel-1000x500px/001-1000x500.png" class="d-block w-100" alt="Casa">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carousel-1000x500px/002-1000x500.png" class="d-block w-100" alt="Casa">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carousel-1000x500px/003-1000x500.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carousel-1000x500px/004-1000x500.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carousel-1000x500px/005-1000x500.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Seccion En Venta -->
+        <section id="seccion2">
+            <h2 class="text-center roboto mt-5 mb-0">EN VENTA</h2>
+            <p class="text-center roboto fs-6 text-secondary mb-5">¡Disfruta de ser propietario!
+            </p>
+        </section>
+        <!-- Seccion Alquiler -->
+        <section id="seccion3">
+            <h2 class="text-center roboto mt-5 mb-0">ALQUILERES</h2>
+            <p class="text-center roboto fs-6 text-secondary mb-5">¡Lo mas buscado en el mercado!
+            </p>
+        </section>
+        <!-- Seccion Acerca de Nosotros -->
+        <section id="seccion4">
+            <h2 class="text-center roboto mt-5 mb-0">CONOCE MÁS DE NOSOTROS</h2>
+        </section>
+        <!-- Seccion Contacto -->
+        <section id="seccion5">
+            <h2 class="text-center roboto mt-5 mb-0">CONTACTANOS</h2>
+            <form class="m-4">
+                <div class="row g-3 mb-3">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                    </div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="MaestroYoda@gmail.com">
+                    <label for="floatingInput">Dirección Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="floatingInput" placeholder="+54 123 1234567">
+                    <label for="floatingInput">Número de Telefono</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comments</label>
+                </div>
+                <button type="submit" class="btn btn-primary mb-4">Enviar</button>
+            </form>
+            <div class="roboto">
+                <h4>Horarios de Atencion</h4>
+                <p class="m-0"><i> Lunes a Viernes de 8:00am a 13:00pm y de 17:00pm a 20:00pm</i></p>
+                <p><i>Sábados de 8:00am a 12:00pm</i></p>
+                <h4>Datos de contacto:</h4>
+                <p class="m-0">Direccion: Rosario de Sta. Fe 178, X5000ACD Córdoba-Argentina</p>
+                <p class="m-0">Teléfono: +54 (123) 1234567</p>
+                <p class="">Email: AquaInmobiliaria@dominio.com</p>
+                <!-- Mapa de ubicacion -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.80656044726314!2d-64.18184789265979!3d-31.416744299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29c98e571ef%3A0x4c71fe92706178e3!2sRosario%20de%20Sta.%20Fe%20178%2C%20X5000ACD%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1680915376696!5m2!1ses!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <!-- Logo Empresa -->
+        <Div>
+            <img src="img/logo.png" alt="logo" class="img-responsive" />
+        </Div>
+        <ul>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Pinterest</li>
+        </ul>
+    </footer>
+    <!-- Paquete Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+/* Familia de Fuentes desde: (https://fonts.google.com/)
+font-family: 'Tangerine', cursive; 
+font-family: 'Roboto', sans-serif;*/
+
+/* Definicion de colores variables */
+:root {
+  --color1: #1b507f;
+  --color2: ;
+  --color3: ;
+  --color4: ;
+  --color5: ;
+  --color6: ;
+}
+
+/* Clases de Colores */
+.bg1 {
+  background-color: var(--color1) !important;
+}
+.bgtransp {
+  background-color: transparent;
+}
+.shadow {
+  text-shadow: 0.1rem 0.1rem 0.1rem black, 0.2rem 0.2rem 0.2rem black;
+}
+
+/* Tipografia */
+.moondance {
+  font-family: "Moon Dance", cursive;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.imgheader {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  background-image: url("/img/Header-001.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.captionhero {
+  height: 440px;
+  padding-top: 7rem;
+}
+.heightfield {
+  min-height: calc(5em + (0.75rem + 2px)) !important;
+}
