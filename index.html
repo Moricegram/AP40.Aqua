@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Fuente para Simbolos Redes Sociales -->
+    <script src="https://kit.fontawesome.com/405d5358c0.js" crossorigin="anonymous"></script>
     <!-- Hoja de Estilos Particulares -->
     <link rel="stylesheet" href="/css/styles.css">
     <title>AQUA</title>
@@ -24,7 +26,7 @@
 <body>
     <header class="hero" id="inicio">
         <!-- Navbar Modificado de Bootstap -->
-        <nav class="navbar navbar-expand-md navbar-dark bgtransp">
+        <nav class="navbar navbar-expand-md navbar-dark bgtransp sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand text-white shadow" href="#"> <span><img src="/img/LogoAquaWhite43px.png"
                             alt="Logo"></span>AQUA <span Class="fs-6 moondance">Inmobiliaria</span></a>
@@ -50,10 +52,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white shadow" href="#">Sobre Nosotros</a>
+                            <a class="nav-link text-white shadow" href="#seccion4">Sobre Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white shadow" href="#">Contacto</a>
+                            <a class="nav-link text-white shadow" href="#seccion5">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -71,7 +73,7 @@
     <main>
         <!-- Carrusel de Destacados -->
         <section id="seccion1">
-            <h2 class="text-center roboto mt-5 mb-0">DESTACADOS</h2>
+            <h2 class="text-center roboto marginsection mb-0">DESTACADOS</h2>
             <p class="text-center roboto fs-6 text-secondary mb-5">Explora nuestras propiedades destacadas
             </p>
             <!-- Carrusel de Bootstrap Modificado -->
@@ -139,23 +141,193 @@
         </section>
         <!-- Seccion En Venta -->
         <section id="seccion2">
-            <h2 class="text-center roboto mt-5 mb-0">EN VENTA</h2>
-            <p class="text-center roboto fs-6 text-secondary mb-5">¡Disfruta de ser propietario!
-            </p>
+            <h2 class="text-center roboto marginsection mb-0">EN VENTA</h2>
+            <p class="text-center roboto fs-6 text-secondary mb-5">¡Disfruta de ser propietario!</p>
+            <!-- Cards -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 roboto">
+                <div class="col">
+                    <div class="card bordernone">
+                        <div class="card-body">
+                            <h2 class="card-title">Residencial</h2>
+                            <p class="card-text text-secondary">¡No pierda la oportunidad de adquirir su hogar ideal!
+                                Descubra nuestras
+                                propiedades residenciales de alta calidad y
+                                encuentre la casa de sus sueños. Contáctenos hoy mismo para más información.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/001-1000x500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalet Colonial</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/002-1000x500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa Estilo Moderno</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/003-1000x500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Chalet estilo Frances</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/004-1000x500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Departamente Mordeno</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/005-1000x500.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa de Campo</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Seccion Alquiler -->
         <section id="seccion3">
-            <h2 class="text-center roboto mt-5 mb-0">ALQUILERES</h2>
-            <p class="text-center roboto fs-6 text-secondary mb-5">¡Lo mas buscado en el mercado!
-            </p>
+            <h2 class="text-center roboto marginsection mb-0">ALQUILERES</h2>
+            <p class="text-center roboto fs-6 text-secondary mb-5">¡Lo mas buscado en el mercado!</p>
+            <!-- Cards -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 roboto">
+                <div class="col">
+                    <div class="card bordernone">
+                        <div class="card-body">
+                            <h2 class="card-title">Propiedades en Alquiler</h2>
+                            <p class="card-text text-secondary">¡Encuentra la comodidad y privacidad que necesitas en un
+                                espacio bien ubicado, completamente equipado y con todos los servicios incluidos. No
+                                esperes más para disfrutar de tu nuevo lugar!.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/006-1000x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Monoambiente</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/007-1000x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Depto Moderno</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/008-1000x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cabaña Urbana</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/009-1000x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Casa estilo clasico</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card boxshadow">
+                        <img src="/img/Carousel-1000x500px/010-1000x500.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Estudio de arte</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+                                doloribus officia voluptatibus eos in ipsum, ut rerum sit corporis saepe quo similique
+                                vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Seccion Acerca de Nosotros -->
         <section id="seccion4">
-            <h2 class="text-center roboto mt-5 mb-0">CONOCE MÁS DE NOSOTROS</h2>
+            <h2 class="text-center roboto marginsection mb-3">CONOCE MÁS DE NOSOTROS</h2>
+            <div class="mb-5">
+                <p><i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam eos libero cumque ad
+                        animi, autem odio facere et dignissimos nemo aliquid explicabo obcaecati? Repellendus impedit,
+                        iure quaerat error voluptatum facere! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Nisi
+                        quas corrupti quibusdam reprehenderit, aperiam illum dolorem praesentium ad voluptates placeat
+                        beatae dolorum, facilis, at possimus. Labore saepe blanditiis at minima.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aspernatur odit at ad mollitia
+                        quam cumque iure modi laboriosam esse voluptates natus, facilis laborum deleniti molestiae vel
+                        quibusdam perspiciatis inventore?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolores enim veniam odit
+                        quibusdam incidunt totam modi recusandae mollitia? Suscipit magnam libero nihil nisi odit
+                        quibusdam, a delectus nesciunt beatae.
+                    </i>
+                </p>
+            </div>
+            <div class="staff-block">
+                <Figure class="staff-container">
+                    <img class=" radius50 staff-photo" src="/IMG/Staff-01.jpg" alt="Staff Foto">
+                    <figcaption class="figcap"><b>Mariana Arias</b><br> Gerente de Ventas
+                    </figcaption>
+                </Figure>
+                <Figure class="staff-container">
+                    <img class=" radius50 staff-photo" src="/IMG/Staff-02.png" alt="Staff Foto">
+                    <figcaption class="figcap"> <b>Sonia Tarifa</b><br>Vendedora Senior</figcaption>
+                </Figure>
+                <Figure class="staff-container">
+                    <img class=" radius50 staff-photo" src="/IMG/Staff-03.png" alt="Staff Foto">
+                    <figcaption class="figcap"><b>Mauricio Aguirre</b><br>Agente Inmobiliario</figcaption>
+                </Figure>
+                <Figure class="staff-container">
+                    <img class=" radius50 staff-photo" src="/IMG/Staff-04.png" alt="Staff Foto">
+                    <figcaption class="figcap"><b>Vanesa Gomez</b><br>Agente Inmobiliario</figcaption>
+                </Figure>
+            </div>
         </section>
         <!-- Seccion Contacto -->
         <section id="seccion5">
-            <h2 class="text-center roboto mt-5 mb-0">CONTACTANOS</h2>
+            <h2 class="text-center roboto mb-0 marginsection">CONTACTANOS</h2>
             <form class="m-4">
                 <div class="row g-3 mb-3">
                     <div class="col">
@@ -180,36 +352,82 @@
                 </div>
                 <button type="submit" class="btn btn-primary mb-4">Enviar</button>
             </form>
-            <div class="roboto">
-                <h4>Horarios de Atencion</h4>
-                <p class="m-0"><i> Lunes a Viernes de 8:00am a 13:00pm y de 17:00pm a 20:00pm</i></p>
-                <p><i>Sábados de 8:00am a 12:00pm</i></p>
-                <h4>Datos de contacto:</h4>
-                <p class="m-0">Direccion: Rosario de Sta. Fe 178, X5000ACD Córdoba-Argentina</p>
-                <p class="m-0">Teléfono: +54 (123) 1234567</p>
-                <p class="">Email: AquaInmobiliaria@dominio.com</p>
-                <!-- Mapa de ubicacion -->
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.80656044726314!2d-64.18184789265979!3d-31.416744299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29c98e571ef%3A0x4c71fe92706178e3!2sRosario%20de%20Sta.%20Fe%20178%2C%20X5000ACD%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1680915376696!5m2!1ses!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Grilla de Tres Cuerpos para Contactos -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h4>Horarios de Atencion</h4>
+                        <p class="m-0"><i> Lunes a Viernes de 8:00am a 13:00pm y de 17:00pm a 20:00pm</i></p>
+                        <p><i>Sábados de 8:00am a 12:00pm</i></p>
+                    </div>
+                    <div class="col">
+                        <h4>Datos de contacto:</h4>
+                        <p class="m-0"><i>Direccion: Rosario de Sta. Fe 178, X5000ACD Córdoba-Argentina</i></p>
+                        <p class="m-0"><i>Teléfono: +54 (123) 1234567</i></p>
+                        <p class=""><i>Email: AquaInmobiliaria@dominio.com</i></p>
+                    </div>
+                    <div class="col">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.80656044726314!2d-64.18184789265979!3d-31.416744299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29c98e571ef%3A0x4c71fe92706178e3!2sRosario%20de%20Sta.%20Fe%20178%2C%20X5000ACD%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1680915376696!5m2!1ses!2sar"
+                            width="350" height="300" style="border:2px" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-
-
         </section>
     </main>
+    <!-- Inicio del Footer -->
     <footer>
-        <!-- Logo Empresa -->
-        <Div>
-            <img src="img/logo.png" alt="logo" class="img-responsive" />
-        </Div>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Pinterest</li>
-        </ul>
+        <section class="container-fluid roboto">
+            <div class="row p-2 pb-2 bg-dark text-white">
+                <div class="col-12 col-md-6 col-lg-4 mt-5 text-center">
+                    <div class="d-md-none">
+                        <img src="/img/LogoAquaWhite.png" height="100px" alt="logo" class="mx-2">
+                        <a class="text-decoration-none" href="/index.html">
+                            <span class="text-white fs-2">AQUA<span Class="fs-6 moondance">Inmobiliaria</span>
+                        </a>
+                    </div>
+                    <div class="d-none d-md-flex">
+                        <div>
+                            <a href="/index.html">
+                                <img src="/img/LogoAquaWhite.png" alt="logo" class="card-img w-50">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-5 d-flex flex-column justify-content-center align-items-center">
+                    <div class="text-center">
+                        <p class="h4 fw-bold mb-3">Redes Sociales</p>
+                    </div>
+                    <ul class="p-0 list-unstyled">
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href=""> <i
+                                    class="fa-brands fa-facebook me-2"></i> Facebook</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href=""> <i
+                                    class="fa-brands fa-instagram me-2"></i> Instagram</a>
+                        </li>
+                        <li class="mb-3">
+                            <a class="text-white text-decoration-none" href=""> <i
+                                    class="fa-brands fa-twitter me-2"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="col-12 col-md-12 col-lg-4 mt-1 d-flex flex-column justify-content-center align-items-center">
+                    <p class="h5">Acerca de Nosotros</p>
+                    <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <article class="container-fluid mt-5">
+                    <p class="text-white text-center">
+                        &copy; Copyright - All Rights Reserved
+                    </p>
+                </article>
+            </div>
+        </section>
     </footer>
+
     <!-- Paquete Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
